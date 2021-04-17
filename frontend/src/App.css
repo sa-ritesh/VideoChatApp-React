@@ -36,9 +36,9 @@
 }
 
 body {
-  background: #023e8a, #0077b6, #0096c7, #00b4d8, #48cae4, #90e0ef, #ade8f4;
+  background: #0096c7;
   background: -webkit-linear-gradient(
-    to right,
+    to top-left,
     #03045e,
     #023e8a,
     #0077b6,
@@ -49,7 +49,7 @@ body {
     #ade8f4
   );
   background: linear-gradient(
-    to right,
+    to top-left,
     #03045e,
     #023e8a,
     #0077b6,
