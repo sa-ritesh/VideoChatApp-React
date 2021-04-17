@@ -41,6 +41,30 @@ function App() {
       setCallerSignal(data.signal);
     });
   }, []);
+  const callUser = (id) => {
+    const peer = new Peer({
+      initiator: true,
+      trickle: false,
+      stream: stream,
+    });
+    peer.on("signal", (data) => {
+      socket.emit("callUser", {
+        userToCall: id,
+        signalData: data,
+        from: me,
+        name: name,
+      });
+    });
+    peer.on("stream", (stream) => {
+      userVideo.current.srcObject = stream;
+    });
+    socket.on("callAccepted", (signal) => {
+      setCallAccepted(true);
+      peer.signal(signal);
+    });
+
+    connectionRef.current = peer;
+  };
   return <div className="App"></div>;
 }
 
