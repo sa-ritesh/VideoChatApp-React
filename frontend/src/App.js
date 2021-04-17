@@ -9,7 +9,7 @@ import Peer from "simple-peer";
 import io from "socket.io-client";
 import "./App.css";
 
-const socket = io.connect("https://sa-ritesh-video-chat-app.herokuapp.com");
+const socket = io.connect("https://angry-wright-d6c99a.netlify.app");
 
 function App() {
   const [me, setMe] = useState("");
