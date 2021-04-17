@@ -90,7 +90,7 @@ function App() {
   };
   return (
     <Fragment>
-      <h1 style={{ textAlign: "center", color: "#fff" }}>Zoomish</h1>
+      <h1 style={{ textAlign: "center", color: "#fff" }}>Chit-Chat</h1>
       <div className="container">
         <div className="video-container">
           <div className="video">
