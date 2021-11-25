@@ -1,6 +1,6 @@
 # Realtime Chat Application
 
-![Video Chat](2.png)
+![Video Chat](3.png)
 [Visit Site](https://zen-payne-feb144.netlify.app "Video Chat App")
 
 ## Introduction
