@@ -4,10 +4,9 @@
 [Visit Site](https://zen-payne-feb144.netlify.app "Video Chat App")
 
 ## Introduction
-
-This is a code repository for the corresponding video tutorial.
-
-In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.
+#MERN
+#socket.io
+#WebRTC
 
 Setup:
 
