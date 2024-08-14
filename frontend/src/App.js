@@ -9,7 +9,7 @@ import Peer from "simple-peer";
 import io from "socket.io-client";
 import "./App.css";
 
-const socket = io.connect("https://sa-ritesh-video-chat-app.herokuapp.com");
+const socket = io.connect("https://video-chat-app-react.vercel.app");
 
 function App() {
   const [me, setMe] = useState("");
